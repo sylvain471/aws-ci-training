@@ -6,7 +6,7 @@ on:
 env:
   AWS_REGION: eu-central-1
   LAMBDA_FUNCTION_NAME: MySimpleLambdaFunction
-  AWS_ROLE_TO_ASSUME: arn:aws:iam::851725344067:role/aws-ci-training-sd-lambda
+  AWS_ROLE_TO_ASSUME: arn:aws:iam::{MY-AWS-NUMBER}:role/aws-ci-training-sd-lambda
 
 permissions:
   id-token: write
